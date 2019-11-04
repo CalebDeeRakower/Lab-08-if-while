@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    var userstring = prompt("Give me a number between 1 and 4, and I'll predict your future...");
+    var usernumber = parseInt(userstring, 10);
+
+    if (usernumber == 1) {
+      console.log("Your name is Yoshikage Kira. You’re 33 years old. Your house is in the northeast section of Morioh, where all the villas are, and you are not married. You work as an employee for the Kame Yu department stores, and you get home every day by 8 PM at the latest. You don't smoke, but you occasionally drink. You are in bed by 11 PM, and make sure you get eight hours of sleep, no matter what. After having a glass of warm milk and doing about twenty minutes of stretches before going to bed, you usually have no problems sleeping until morning. Just like a baby, you wake up without any fatigue or stress in the morning. You were told there were no issues at your last check-up. I am trying to explain that you’re a person who wishes to live a very quiet life. You take care not to trouble yourself with any enemies, like winning and losing, that would cause you to lose sleep at night. That is how you deal with society, and you know that is what brings you happiness. Although, if you were to fight, you wouldn't lose to anyone.");
+      document.write("Your name is Yoshikage Kira. You’re 33 years old. Your house is in the northeast section of Morioh, where all the villas are, and you are not married. You work as an employee for the Kame Yu department stores, and you get home every day by 8 PM at the latest. You don't smoke, but you occasionally drink. You are in bed by 11 PM, and make sure you get eight hours of sleep, no matter what. After having a glass of warm milk and doing about twenty minutes of stretches before going to bed, you usually have no problems sleeping until morning. Just like a baby, you wake up without any fatigue or stress in the morning. You were told there were no issues at your last check-up. I am trying to explain that you’re a person who wishes to live a very quiet life. You take care not to trouble yourself with any enemies, like winning and losing, that would cause you to lose sleep at night. That is how you deal with society, and you know that is what brings you happiness. Although, if you were to fight, you wouldn't lose to anyone. <br>");
+    } else if (usernumber == 2) {
+      console.log("Oh? You're approching your enemy? You can't beat the crap out of them without coming closer.");
+      document.write("Oh? You're approching your enemy? You can't beat the crap out of them without coming closer. <br>");
+    } else if (usernumber == 3) {
+      console.log("You will get a fresh new hairstyle, but you fly into a blind rage if anyone says anything remotely bad about it.");
+      document.write("You will get a fresh new hairstyle, but you fly into a blind rage if anyone says anything remotely bad about it. <br>");
+    } else if (usernumber == 4) {
+      console.log ("Imminent tradgedy is coming in your near future.");
+      document.write("Imminent tradgedy is coming in your near future. <br>");
+    } else {
+      console.log("YOU FELL FOR IT, YOU FOOL! THUNDER CROSS SPLIT ATTACK!!!");
+      document.write("YOU FELL FOR IT, YOU FOOL! THUNDER CROSS SPLIT ATTACK!!! <br>")
+    }
+    </script>
+  </body>
+  </html>
